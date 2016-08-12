@@ -1,0 +1,18 @@
+"include Script JS"
+
+
+Install node.js and npm
+install npm install webpack -g
+go to the directory project
+webpack bundle.js 
+in HTML file write <script src="bundle.js"></script>
+in file webpack.config.js write 
+module.exports = {
+    entry: './main.js',
+    output: {
+        filename: 'bundle.js'
+    }
+}
+webpuck --watch
+
+
