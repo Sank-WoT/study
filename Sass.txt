@@ -1,0 +1,9 @@
+installing ruby
+install gem
+gem install sass
+
+<<setting webstorm>>
+open webstorm
+file-> settings-> tools-> file watchers
+specify in program path sass
+ready

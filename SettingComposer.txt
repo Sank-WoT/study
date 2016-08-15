@@ -1,0 +1,7 @@
+open "OpenServer"
+open console
+input cd modules/php/PHP-5.5.6/ (where PHP-5.5.6 version PHP)
+input php -r "readfile('https://getcomposer.org/installer');" | php
+
+create Project on Laravel
+composer create-project laravel/laravel your-project-name --prefer-dist
